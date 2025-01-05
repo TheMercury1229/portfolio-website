@@ -26,7 +26,7 @@ export const works = [
     imgSrc: "/project-3.png",
     title: "X-Clone - A twitter clone made using the MERN stack",
     tags: ["MERN", "TailwindCSS", "DaisyUI", "Cloudinary"],
-    projectLink: "",
+    projectLink: "https://x-clone-hg.onrender.com",
     githubLink: "https://github.com/TheMercury1229/twitter",
     category: "Fullstack",
     about:
