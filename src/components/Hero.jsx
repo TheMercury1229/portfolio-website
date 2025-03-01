@@ -35,7 +35,12 @@ const Hero = () => {
             <SocialLinks />
           </div>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label={"Download CV"} icon="download" />
+            <ButtonPrimary
+              label={"Download CV"}
+              icon="download"
+              download
+              href={"/resume.pdf"}
+            />
             <ButtonOutline
               href="#about"
               label={"Scroll Down"}
