@@ -28,7 +28,7 @@ const Hero = () => {
             Hi, I'm Hardik!
           </h2>
           <p className="text-zinc-400 mb-4 lg:mb-6 text-lg">
-            A Passionate Sophomore Developer Focused on Web Development and
+            A Passionate Pre Final Year Developer Focused on Web Development and
             DevOps. Crafting Innovative Solutions, One Line of Code at a Time.
           </p>
           <div className="lg:mb-6 mb-4">
