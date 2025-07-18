@@ -15,6 +15,10 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const HomePage = () => {
   useEffect(() => {
+    ScrollTrigger.refresh();
+  }, []);
+
+  useEffect(() => {
     window.scrollTo(0, 0);
     gsap.fromTo(
       ".section-2",
