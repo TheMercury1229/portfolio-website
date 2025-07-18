@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="home" className="pt-28 lg:pt-28 ">
       <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
         <div>
-          <div className="inline-flex  items-center gap-3 p-2.5 rounded-full bg-sky-800/20 ">
+          <div className="inline-flex items-center gap-3 p-2.5 rounded-full bg-sky-800/20 mb-4">
             <figure className="img-box w-9 h-9 rounded-full">
               <img
                 src="/me.jpg"
@@ -17,13 +17,16 @@ const Hero = () => {
                 className="img-cover"
               />
             </figure>
-            <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide ">
-              <span className="relative w-2 h-2 rounded-full bg-emerald-400">
-                <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
-              </span>
-              Available for work
+            <div className="flex flex-wrap items-center gap-2">
+              <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+                <span className="relative w-2 h-2 rounded-full bg-emerald-400">
+                  <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
+                </span>
+                Available for work
+              </div>
             </div>
           </div>
+
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-4 lg:mb-6">
             Hi, I'm Hardik!
           </h2>
