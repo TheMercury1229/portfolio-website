@@ -39,7 +39,7 @@ const Hero = () => {
               label={"Download CV"}
               icon="download"
               download
-              href={"/resume.pdf"}
+              href={"/Hardik_Gujrathi_Resume.pdf"}
             />
             <ButtonOutline
               href="#about"
