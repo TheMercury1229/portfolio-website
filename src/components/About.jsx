@@ -1,6 +1,6 @@
 const aboutItems = [
   {
-    label: "Projects made",
+    label: "Projects built",
     number: 20,
   },
   {
@@ -8,22 +8,18 @@ const aboutItems = [
     number: 25,
   },
 ];
+
 const About = () => {
   return (
     <section id="about" className="section">
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-lg md:max-w-[60ch]">
-            Hi! I'm <strong>Hardik</strong>, a sophomore studying{" "}
+            Hi! I'm <strong>Hardik</strong>, a pre-final year student pursuing{" "}
             <strong>Artificial Intelligence & Data Science</strong> at{" "}
-            <strong>Pune Institute of Computer Technology, Pune</strong>
-            .With a strong base in fundamentals of computer science, I'm a{" "}
-            <strong>MERN </strong>
-            stack developer passionate about building responsive web
-            applications that combine functionality with modern design. I'm also
-            exploring my interest in
-            <strong> DevOps</strong> and enjoy creating scalable solutions that
-            leave an impact !
+            <strong>Pune Institute of Computer Technology, Pune</strong>. I have a solid grasp of core computer science concepts and love building responsive{" "}
+            <strong>MERN stack</strong> applications with thoughtful design and practical functionality. I’m also exploring{" "}
+            <strong>DevOps</strong> and AI workflows, and enjoy creating scalable, real-world solutions that deliver impact.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, index) => (
