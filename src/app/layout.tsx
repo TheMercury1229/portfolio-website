@@ -22,7 +22,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hardikgujrathi.me"),
+  metadataBase: new URL("https://hardik-gujarathidev.vercel.app"),
   title: {
     default: "Hardik Gujrathi | Full-Stack & AI Engineer",
     template: "%s | Hardik Gujrathi",
@@ -42,12 +42,12 @@ export const metadata: Metadata = {
     "PICT",
     "Portfolio",
   ],
-  authors: [{ name: "Hardik Gujrathi", url: "https://hardikgujrathi.me" }],
+  authors: [{ name: "Hardik Gujrathi", url: "https://hardik-gujarathidev.vercel.app" }],
   creator: "Hardik Gujrathi",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://hardikgujrathi.me",
+    url: "https://hardik-gujarathidev.vercel.app",
     siteName: "Hardik Gujrathi Portfolio",
     title: "Hardik Gujrathi | Full-Stack & AI Engineer",
     description:
